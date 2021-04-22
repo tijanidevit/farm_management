@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.eot');
+    src: url('Montserrat-Regulard41d.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Regular.woff2') format('woff2'),
+        url('Montserrat-Regular.woff') format('woff'),
+        url('Montserrat-Regular.ttf') format('truetype'),
+        url('Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.eot');
+    src: url('Montserrat-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Medium.woff2') format('woff2'),
+        url('Montserrat-Medium.woff') format('woff'),
+        url('Montserrat-Medium.ttf') format('truetype'),
+        url('Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: url('Intro-Light.eot');
+    src: url('Intro-Lightd41d.eot?#iefix') format('embedded-opentype'),
+        url('Intro-Light.woff2') format('woff2'),
+        url('Intro-Light.woff') format('woff'),
+        url('Intro-Light.ttf') format('truetype'),
+        url('Intro-Light.svg#Intro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: url('Intro-Bold.eot');
+    src: url('Intro-Boldd41d.eot?#iefix') format('embedded-opentype'),
+        url('Intro-Bold.woff2') format('woff2'),
+        url('Intro-Bold.woff') format('woff'),
+        url('Intro-Bold.ttf') format('truetype'),
+        url('Intro-Bold.svg#Intro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: url('Intro-Regular.eot');
+    src: url('Intro-Regulard41d.eot?#iefix') format('embedded-opentype'),
+        url('Intro-Regular.woff2') format('woff2'),
+        url('Intro-Regular.woff') format('woff'),
+        url('Intro-Regular.ttf') format('truetype'),
+        url('Intro-Regular.svg#Intro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

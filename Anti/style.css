@@ -1,0 +1,44 @@
+
+.center-all{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+        flex-direction: column;
+}
+.mycard{
+	min-height: 12em;
+	max-height: 12em;
+}
+.space-10{
+	margin-top: 9%;
+}
+footer{
+	margin-top: 6.7em;
+	bottom: 0;
+}
+a:hover{
+	text-decoration: none;
+	color: gold;
+}
+.box {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+}
+
+.img{
+	width: 200px;
+	width: 200px
+}
+
+
+@media screen and (max-width: 600px) {
+  footer{
+  	margin-top: 0em;
+  }
+}

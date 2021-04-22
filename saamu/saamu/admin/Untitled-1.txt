@@ -1,0 +1,25 @@
+var amount = $('#amount').val() * 100;
+    var handler = PaystackPop.setup({
+      key: 'pk_test_084fa7123ffb9f323b380dcdc88397b7f5bb4e5a',
+      email: '<?php get_session() ?>',
+      amount: amount,
+      currency: "NGN",
+      ref: ''+Math.floor((Math.random() * 1000000000) + 1), 
+      metadata: {
+         custom_fields: [
+            {
+                display_name: "Mobile Number",
+                variable_name: "mobile_number",
+                value: "+2348012345678"
+            }
+         ]
+      },
+      callback: function(response){
+          alert("Savings Done Successful")
+      },
+      onClose: function(){
+          alert('window closed');
+      }
+    });
+    //saveSavings()
+    handler.openIframe();

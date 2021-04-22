@@ -1,0 +1,6 @@
+[24-Jan-2020 22:15:51 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'id12070473_saamu'@'localhost' (using password: YES)' in /home/mustaph3/public_html/saamu/includes/connect.php:2
+Stack trace:
+#0 /home/mustaph3/public_html/saamu/includes/connect.php(2): PDO->__construct('mysql:host=loca...', 'id12070473_saam...', 'Tijani')
+#1 /home/mustaph3/public_html/saamu/index.php(2): include_once('/home/mustaph3/...')
+#2 {main}
+  thrown in /home/mustaph3/public_html/saamu/includes/connect.php on line 2
